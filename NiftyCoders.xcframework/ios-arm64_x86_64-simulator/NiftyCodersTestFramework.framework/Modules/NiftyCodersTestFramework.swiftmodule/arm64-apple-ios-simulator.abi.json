@@ -1,0 +1,127 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NiftyCodersTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NiftyCodersTestFramework",
+        "printedName": "NiftyCodersTestFramework",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NiftyCodersTestFramework",
+                "printedName": "NiftyCodersTestFramework.NiftyCodersTestFramework",
+                "usr": "s:24NiftyCodersTestFrameworkAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24NiftyCodersTestFrameworkAACABycfc",
+            "mangledName": "$s24NiftyCodersTestFrameworkAACABycfc",
+            "moduleName": "NiftyCodersTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printMessage",
+            "printedName": "printMessage(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NiftyCodersTestFrameworkAAC12printMessage7messageySS_tF",
+            "mangledName": "$s24NiftyCodersTestFrameworkAAC12printMessage7messageySS_tF",
+            "moduleName": "NiftyCodersTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24NiftyCodersTestFrameworkAAC",
+        "mangledName": "$s24NiftyCodersTestFrameworkAAC",
+        "moduleName": "NiftyCodersTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NiftyCodersTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NiftyCoderSPM",
+        "printedName": "NiftyCoderSPM",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printHello",
+            "printedName": "printHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24NiftyCodersTestFramework0A8CoderSPMV10printHelloyyFZ",
+            "mangledName": "$s24NiftyCodersTestFramework0A8CoderSPMV10printHelloyyFZ",
+            "moduleName": "NiftyCodersTestFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24NiftyCodersTestFramework0A8CoderSPMV",
+        "mangledName": "$s24NiftyCodersTestFramework0A8CoderSPMV",
+        "moduleName": "NiftyCodersTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

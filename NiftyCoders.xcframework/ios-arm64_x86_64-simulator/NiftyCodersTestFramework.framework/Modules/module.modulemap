@@ -1,0 +1,11 @@
+framework module NiftyCodersTestFramework {
+  umbrella header "NiftyCodersTestFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NiftyCodersTestFramework.Swift {
+  header "NiftyCodersTestFramework-Swift.h"
+  requires objc
+}
